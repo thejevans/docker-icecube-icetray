@@ -6,6 +6,7 @@ on:
     branches: [ master ]
     paths:
       - 'neutrino_sources/Dockerfile*'
+      - 'neutrino_sources/neutrino_sources22.04/Dockerfile*'
 
 jobs:
   docker:
